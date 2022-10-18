@@ -1,29 +1,27 @@
-# Testes automatizados com Cypress - Básico
+# cypress-basico-v2
+Projeto de amostra do curso básico de Cypress pelo Talking About Testing
 
-👋 Seja bem-vindo(a)!
+# Pré-requisitos
+Isto requer ter Node.js e npm instalado para executar este projeto
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai adorar este curso. ❤️
+Eu usei as versões v16.13.2 e 8.3.2 do Node.js e npm, respectivamente. Sugiro que você use as mesmas versões ou versões posteriores.
 
-## O que você vai aprender
+# Instalação
+Execute npm install (ou npm  em uma versão curta) Para instalar as dev dependências
 
-Durante o curso de testes automatizados com Cypress (básico), você vai aprender:
+# Testes
+Você pode fazer os testes na versão desktop e mobile.
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar _upload_ de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como executar os testes em um _pipeline_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
+## Desktop
+Execute 'npm test' (ou 'npm t' para uma versão mais curta) para executar o teste no modo headless.
+Ou, execute 'npm run cy:open' para abrir o Cypress em modo interativo
 
-## Vamos começar?
+## Mobile
+Execute 'npm run test:mobile' (ou 'npm t' para uma versão mais curta) para executar o teste no modo headless.
+Ou, execute 'npm run cy:open:mobile' para abrir o Cypress em modo interativo
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
 
-___
+Support this project
+If you want to support this project, leave a ⭐.
 
-Este é mais um curso da [**Escola Talking About Testing**](https://udemy.com/user/walmyr).
+This project was created with 💚 by Walmyr.
