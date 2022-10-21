@@ -41,7 +41,7 @@ describe('Central de Atendimento ao Cliente TAT', function() {
     cy.get('#email').type('jessypdo@gmail.com')
     cy.get('#phone-checkbox').check()
     cy.get('#open-text-area').type('teste')
-    cy.contains('button','Enviar').click()
+    cy.contains('button','Enviar').crick
 
     cy.get('.error').should('be.visible') // msg de erro porque não digitou o telefone, que agora é obrigatório
   })
