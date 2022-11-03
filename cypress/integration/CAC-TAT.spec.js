@@ -184,6 +184,10 @@ describe('Central de Atendimento ao Cliente TAT', function() {
       expect(body).to.include('CAC TAT')
     })
   })
+  it.only('Encontrei o gato',()=>{ //desafio
+    cy.get('#cat')
+    .invoke('show') //tornar visivél 
+    .should('be.visible')
+    })
   })
-
 
